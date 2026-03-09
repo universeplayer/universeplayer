@@ -15,6 +15,7 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | [ContractGuard](https://github.com/he-yufeng/ContractGuard) | new | AI agent that reviews contracts for red flags before you sign |
 | [TokenTracker](https://github.com/he-yufeng/TokenTracker) | new | Drop-in LLM cost tracker — change one import line, see where your money goes |
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | new | Pytest plugin for regression-testing AI agents — snapshot baselines, semantic comparison, mock LLMs |
+| [PromptDiff](https://github.com/he-yufeng/PromptDiff) | new | Semantic diff for LLM prompts — compare prompt versions like git diff |
 | [GitSense](https://github.com/he-yufeng/GitSense) | new | AI-powered open source contribution finder — tell it your skills, it finds issues |
 
 ### Open Source Contributions
@@ -51,6 +52,7 @@ Python, C++, Go. Comfortable with CUDA kernels, MLIR, reinforcement learning, an
 | [ContractGuard](https://github.com/he-yufeng/ContractGuard) | new | AI 合同审查 Agent，签字前帮你找出霸王条款 |
 | [TokenTracker](https://github.com/he-yufeng/TokenTracker) | new | LLM 开销追踪，改一行 import 就能用 |
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | new | AI Agent 回归测试 pytest 插件 — 快照基线、语义比较、Mock LLM |
+| [PromptDiff](https://github.com/he-yufeng/PromptDiff) | new | LLM prompt 语义 diff 工具，像 git diff 一样对比 prompt 版本 |
 | [GitSense](https://github.com/he-yufeng/GitSense) | new | AI 驱动的开源贡献发现器，输入技能自动找 issue |
 
 ### 开源贡献
