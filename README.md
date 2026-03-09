@@ -17,7 +17,11 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | new | Pytest plugin for regression-testing AI agents — snapshot baselines, semantic comparison, mock LLMs |
 | [GitSense](https://github.com/he-yufeng/GitSense) | new | AI-powered open source contribution finder — tell it your skills, it finds issues |
 
-<!-- When PRs get merged, add an "Open Source Contributions" section here -->
+### Open Source Contributions
+
+| Project | PR | What I Fixed |
+|---------|:--:|-------------|
+| [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1629](https://github.com/kvcache-ai/Mooncake/pull/1629) | GB200 MNNVL EP hang — `cudaMalloc` → `cuMemCreate(FABRIC)` + `cuMemMap` for cross-node NVLink |
 
 ### Tech
 
@@ -48,6 +52,12 @@ Python, C++, Go. Comfortable with CUDA kernels, MLIR, reinforcement learning, an
 | [TokenTracker](https://github.com/he-yufeng/TokenTracker) | new | LLM 开销追踪，改一行 import 就能用 |
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | new | AI Agent 回归测试 pytest 插件 — 快照基线、语义比较、Mock LLM |
 | [GitSense](https://github.com/he-yufeng/GitSense) | new | AI 驱动的开源贡献发现器，输入技能自动找 issue |
+
+### 开源贡献
+
+| 项目 | PR | 修了啥 |
+|------|:--:|--------|
+| [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1629](https://github.com/kvcache-ai/Mooncake/pull/1629) | GB200 MNNVL EP hang — `cudaMalloc` → `cuMemCreate(FABRIC)` + `cuMemMap` 跨节点 NVLink 通信 |
 
 ### 技术栈
 
