@@ -1,6 +1,6 @@
 ## Hey, I'm Yufeng 👋
 
-Agent AI engineer at [Moonshot AI](https://www.moonshot.cn/) (Kimi), CS Master's student at HKU.
+Agent AI engineer at [Moonshot AI](https://www.moonshot.cn/) (Kimi), CS Master's student at HKU. I build things with LLMs and occasionally break compilers.
 
 Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think about how to make AI agents actually work in production.
 
@@ -17,12 +17,15 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | new | Pytest plugin for regression-testing AI agents — snapshot baselines, semantic comparison, mock LLMs |
 | [PromptDiff](https://github.com/he-yufeng/PromptDiff) | new | Semantic diff for LLM prompts — compare prompt versions like git diff |
 | [GitSense](https://github.com/he-yufeng/GitSense) | new | AI-powered open source contribution finder — tell it your skills, it finds issues |
+| [RuleForge](https://github.com/he-yufeng/RuleForge) | new | Auto-generate AI assistant rules (CLAUDE.md, .cursorrules) from codebase analysis |
+| [BatchLLM](https://github.com/he-yufeng/BatchLLM) | new | Batch LLM processing — CSV in, processed CSV out, with retries and cost tracking |
 
 ### Open Source Contributions
 
 | Project | PR | What I Fixed |
 |---------|:--:|-------------|
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1629](https://github.com/kvcache-ai/Mooncake/pull/1629) | GB200 MNNVL EP hang — `cudaMalloc` → `cuMemCreate(FABRIC)` + `cuMemMap` for cross-node NVLink |
+| [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1626](https://github.com/kvcache-ai/Mooncake/pull/1626) | Silenced error log spam for non-memory replicas in metadata store |
 
 ### Tech
 
@@ -54,12 +57,15 @@ Python, C++, Go. Comfortable with CUDA kernels, MLIR, reinforcement learning, an
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | new | AI Agent 回归测试 pytest 插件 — 快照基线、语义比较、Mock LLM |
 | [PromptDiff](https://github.com/he-yufeng/PromptDiff) | new | LLM prompt 语义 diff 工具，像 git diff 一样对比 prompt 版本 |
 | [GitSense](https://github.com/he-yufeng/GitSense) | new | AI 驱动的开源贡献发现器，输入技能自动找 issue |
+| [RuleForge](https://github.com/he-yufeng/RuleForge) | new | 从代码库自动生成 AI 助手规则（CLAUDE.md、.cursorrules）|
+| [BatchLLM](https://github.com/he-yufeng/BatchLLM) | new | LLM 批量处理 — CSV 进 CSV 出，自动重试 + 费用追踪 |
 
 ### 开源贡献
 
 | 项目 | PR | 修了啥 |
 |------|:--:|--------|
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1629](https://github.com/kvcache-ai/Mooncake/pull/1629) | GB200 MNNVL EP hang — `cudaMalloc` → `cuMemCreate(FABRIC)` + `cuMemMap` 跨节点 NVLink 通信 |
+| [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1626](https://github.com/kvcache-ai/Mooncake/pull/1626) | 修复非内存副本的错误日志刷屏 |
 
 ### 技术栈
 
