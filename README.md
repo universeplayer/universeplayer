@@ -26,6 +26,7 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 |---------|:--:|-------------|
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1629](https://github.com/kvcache-ai/Mooncake/pull/1629) | GB200 MNNVL EP hang — `cudaMalloc` → `cuMemCreate(FABRIC)` + `cuMemMap` for cross-node NVLink |
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1626](https://github.com/kvcache-ai/Mooncake/pull/1626) | Silenced error log spam for non-memory replicas in metadata store |
+| [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1644](https://github.com/kvcache-ai/Mooncake/pull/1644) | MNNVL warmup hang — skip redundant handshake for fabric-connected nodes |
 | [OpenClaw](https://github.com/openclaw/openclaw) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | Log auth profile resolution failures instead of swallowing silently |
 
 ### Tech
@@ -67,6 +68,7 @@ Python, C++, Go. Comfortable with CUDA kernels, MLIR, reinforcement learning, an
 |------|:--:|--------|
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1629](https://github.com/kvcache-ai/Mooncake/pull/1629) | GB200 MNNVL EP hang — `cudaMalloc` → `cuMemCreate(FABRIC)` + `cuMemMap` 跨节点 NVLink 通信 |
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1626](https://github.com/kvcache-ai/Mooncake/pull/1626) | 修复非内存副本的错误日志刷屏 |
+| [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1644](https://github.com/kvcache-ai/Mooncake/pull/1644) | MNNVL warmup hang — 跳过 fabric 连接节点的冗余握手 |
 | [OpenClaw](https://github.com/openclaw/openclaw) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | 认证配置解析失败时记录日志而非静默吞掉 |
 
 ### 技术栈
