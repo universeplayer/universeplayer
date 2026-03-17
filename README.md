@@ -28,6 +28,8 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1626](https://github.com/kvcache-ai/Mooncake/pull/1626) | Silenced error log spam for non-memory replicas in metadata store |
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1644](https://github.com/kvcache-ai/Mooncake/pull/1644) | MNNVL warmup hang — skip redundant handshake for fabric-connected nodes |
 | [OpenClaw](https://github.com/openclaw/openclaw) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | Log auth profile resolution failures instead of swallowing silently |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6474](https://github.com/AstrBotDevs/AstrBot/pull/6474) | SQLite `database is locked` under concurrent writes — added busy timeout |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6313](https://github.com/AstrBotDevs/AstrBot/pull/6313) | Null choices guard — OpenAI API returning `None` instead of empty list |
 
 ### Tech
 
@@ -70,6 +72,8 @@ Python, C++, Go. Comfortable with Multi-agent system. I enjoy working at the int
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1626](https://github.com/kvcache-ai/Mooncake/pull/1626) | 修复非内存副本的错误日志刷屏 |
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1644](https://github.com/kvcache-ai/Mooncake/pull/1644) | MNNVL warmup hang — 跳过 fabric 连接节点的冗余握手 |
 | [OpenClaw](https://github.com/openclaw/openclaw) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | 认证配置解析失败时记录日志而非静默吞掉 |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6474](https://github.com/AstrBotDevs/AstrBot/pull/6474) | 修复 SQLite 并发写入 `database is locked`，添加 busy timeout |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6313](https://github.com/AstrBotDevs/AstrBot/pull/6313) | 修复 OpenAI API 返回 `None` choices 导致崩溃 |
 
 ### 技术栈
 
