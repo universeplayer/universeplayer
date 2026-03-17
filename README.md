@@ -30,7 +30,7 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 
 ### Tech
 
-Python, C++, Go. Comfortable with CUDA kernels, MLIR, reinforcement learning, and the OpenAI/Anthropic API stack. I enjoy working at the intersection of systems and ML.
+Python, C++, Go. Comfortable with Multi-agent system. I enjoy working at the intersection of systems and ML.
 
 ### Elsewhere
 
@@ -72,7 +72,7 @@ Python, C++, Go. Comfortable with CUDA kernels, MLIR, reinforcement learning, an
 
 ### 技术栈
 
-Python, C++, Go。搞过 CUDA kernel、MLIR、强化学习、OpenAI/Anthropic API。喜欢在系统和 ML 的交叉地带干活。
+Python, C++, Go。 最近在搞多智能体。喜欢在系统和 ML 的交叉地带干活。
 
 ### 联系
 
