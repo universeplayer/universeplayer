@@ -1,6 +1,7 @@
 ## Hey, I'm Yufeng 👋
 
 Agent AI engineer at [Moonshot AI](https://www.moonshot.cn/) (Kimi), CS Master's student at HKU.
+
 Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think about how to make AI agents actually work in production.
 
 ### Projects
