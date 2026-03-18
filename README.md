@@ -30,6 +30,7 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | [OpenClaw](https://github.com/openclaw/openclaw) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | Log auth profile resolution failures instead of swallowing silently |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6474](https://github.com/AstrBotDevs/AstrBot/pull/6474) | SQLite `database is locked` under concurrent writes — added busy timeout |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6313](https://github.com/AstrBotDevs/AstrBot/pull/6313) | Null choices guard — OpenAI API returning `None` instead of empty list |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6527](https://github.com/AstrBotDevs/AstrBot/pull/6527) | Fix LLM tool selection — rewrote ambiguous Upload/Download descriptions |
 
 ### Tech
 
@@ -74,6 +75,7 @@ Python, C++, Go. Comfortable with Multi-agent system. I enjoy working at the int
 | [OpenClaw](https://github.com/openclaw/openclaw) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | 认证配置解析失败时记录日志而非静默吞掉 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6474](https://github.com/AstrBotDevs/AstrBot/pull/6474) | 修复 SQLite 并发写入 `database is locked`，添加 busy timeout |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6313](https://github.com/AstrBotDevs/AstrBot/pull/6313) | 修复 OpenAI API 返回 `None` choices 导致崩溃 |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6527](https://github.com/AstrBotDevs/AstrBot/pull/6527) | 修复 LLM 工具选择 — 重写模糊的 Upload/Download 描述 |
 
 ### 技术栈
 
