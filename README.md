@@ -31,6 +31,7 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6474](https://github.com/AstrBotDevs/AstrBot/pull/6474) | SQLite `database is locked` under concurrent writes — added busy timeout |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6313](https://github.com/AstrBotDevs/AstrBot/pull/6313) | Null choices guard — OpenAI API returning `None` instead of empty list |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6527](https://github.com/AstrBotDevs/AstrBot/pull/6527) | Fix LLM tool selection — rewrote ambiguous Upload/Download descriptions |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#1](https://github.com/HKUDS/ClawTeam/pull/1) | First PR — 122 tests, CI, team templates, config bugfixes, task duration tracking |
 
 ### Tech
 
@@ -76,6 +77,7 @@ Python, C++, Go. Comfortable with Multi-agent system. I enjoy working at the int
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6474](https://github.com/AstrBotDevs/AstrBot/pull/6474) | 修复 SQLite 并发写入 `database is locked`，添加 busy timeout |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6313](https://github.com/AstrBotDevs/AstrBot/pull/6313) | 修复 OpenAI API 返回 `None` choices 导致崩溃 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6527](https://github.com/AstrBotDevs/AstrBot/pull/6527) | 修复 LLM 工具选择 — 重写模糊的 Upload/Download 描述 |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#1](https://github.com/HKUDS/ClawTeam/pull/1) | 首个 PR — 122 个测试、CI、团队模板、config 修复、任务耗时追踪 |
 
 ### 技术栈
 
