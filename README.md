@@ -9,8 +9,8 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | Project | Stars | What it does |
 |---------|:-----:|-------------|
 | [MTSIR3-GAN](https://github.com/he-yufeng/MTSIR3-GAN) | 135+ | Adapting R3GAN (NeurIPS 2024) to multivariate time series imputation + adversarial refinement study |
-| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 73+ | LLM-powered job toolkit — skill gap analysis, mock interviews, resume optimization |
-| [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 52+ | Deep RL trading strategies with Double DQN and multi-factor alpha signals |
+| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 84+ | LLM-powered job toolkit — skill gap analysis, mock interviews, resume optimization |
+| [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 61+ | Deep RL trading strategies with Double DQN and multi-factor alpha signals |
 | [Arxiv Paper Coding Agent](https://github.com/he-yufeng/Arxiv_Paper_Coding_Agent--HKU_COMP7103C_Data_mining_Assignment) | 31+ | Multi-LLM crew that reads a paper and produces a working implementation |
 | [ContractGuard](https://github.com/he-yufeng/ContractGuard) | new | AI agent that reviews contracts for red flags before you sign |
 | [TokenTracker](https://github.com/he-yufeng/TokenTracker) | new | Drop-in LLM cost tracker — change one import line, see where your money goes |
@@ -36,6 +36,7 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#1](https://github.com/HKUDS/ClawTeam/pull/1) | First PR — 122 tests, CI, team templates, config bugfixes, task duration tracking |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI support — spawn, permissions, prompt injection for both backends |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#24](https://github.com/HKUDS/ClawTeam/pull/24) | Team snapshot/restore — checkpoint and recovery for long-running agent swarms |
+| [LightRAG](https://github.com/HKUDS/LightRAG) (29k★) | [#2796](https://github.com/HKUDS/LightRAG/pull/2796) | Fix `None` file_path propagating as `unknown_source` — fill gaps left by #2793 |
 
 ### Tech
 
@@ -59,8 +60,8 @@ Python, C++, Go. Comfortable with Multi-agent system. I enjoy working at the int
 | 项目 | Stars | 简介 |
 |------|:-----:|------|
 | [MTSIR3-GAN](https://github.com/he-yufeng/MTSIR3-GAN) | 135+ | 将 R3GAN (NeurIPS 2024) 适配到多变量时序插补 + 对抗精炼实证研究 |
-| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 73+ | LLM 求职工具箱 — 技能差距分析、模拟面试、简历优化 |
-| [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 52+ | 深度强化学习量化交易，Double DQN + 多因子 Alpha |
+| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 84+ | LLM 求职工具箱 — 技能差距分析、模拟面试、简历优化 |
+| [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 61+ | 深度强化学习量化交易，Double DQN + 多因子 Alpha |
 | [Arxiv Paper Coding Agent](https://github.com/he-yufeng/Arxiv_Paper_Coding_Agent--HKU_COMP7103C_Data_mining_Assignment) | 31+ | 多 LLM 协作 Agent，读论文自动生成可运行代码 |
 | [ContractGuard](https://github.com/he-yufeng/ContractGuard) | new | AI 合同审查 Agent，签字前帮你找出霸王条款 |
 | [TokenTracker](https://github.com/he-yufeng/TokenTracker) | new | LLM 开销追踪，改一行 import 就能用 |
@@ -86,6 +87,7 @@ Python, C++, Go. Comfortable with Multi-agent system. I enjoy working at the int
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#1](https://github.com/HKUDS/ClawTeam/pull/1) | 首个 PR — 122 个测试、CI、团队模板、config 修复、任务耗时追踪 |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI 支持 — spawn、权限、prompt 注入双 backend 适配 |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#24](https://github.com/HKUDS/ClawTeam/pull/24) | 团队快照/恢复 — 长时间 agent swarm 的检查点和恢复机制 |
+| [LightRAG](https://github.com/HKUDS/LightRAG) (29k★) | [#2796](https://github.com/HKUDS/LightRAG/pull/2796) | 修复 `None` file_path 传播为 `unknown_source` — 补 #2793 遗漏的处理层 |
 
 ### 技术栈
 
