@@ -32,7 +32,10 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6313](https://github.com/AstrBotDevs/AstrBot/pull/6313) | Null choices guard — OpenAI API returning `None` instead of empty list |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6527](https://github.com/AstrBotDevs/AstrBot/pull/6527) | Fix LLM tool selection — rewrote ambiguous Upload/Download descriptions |
 | [vLLM](https://github.com/vllm-project/vllm) (50k★) | [#37301](https://github.com/vllm-project/vllm/pull/37301) | Base64 JPEG video frames returning empty metadata — populate frame count, fps, duration |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6596](https://github.com/AstrBotDevs/AstrBot/pull/6596) | Multimodal token counting — images, audio, chain-of-thought were invisible to context compression |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#1](https://github.com/HKUDS/ClawTeam/pull/1) | First PR — 122 tests, CI, team templates, config bugfixes, task duration tracking |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI support — spawn, permissions, prompt injection for both backends |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#24](https://github.com/HKUDS/ClawTeam/pull/24) | Team snapshot/restore — checkpoint and recovery for long-running agent swarms |
 
 ### Tech
 
@@ -79,7 +82,10 @@ Python, C++, Go. Comfortable with Multi-agent system. I enjoy working at the int
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6313](https://github.com/AstrBotDevs/AstrBot/pull/6313) | 修复 OpenAI API 返回 `None` choices 导致崩溃 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6527](https://github.com/AstrBotDevs/AstrBot/pull/6527) | 修复 LLM 工具选择 — 重写模糊的 Upload/Download 描述 |
 | [vLLM](https://github.com/vllm-project/vllm) (50k★) | [#37301](https://github.com/vllm-project/vllm/pull/37301) | 修复 base64 JPEG 视频帧返回空 metadata — 补充帧数、fps、时长 |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6596](https://github.com/AstrBotDevs/AstrBot/pull/6596) | 多模态 token 计数 — 图片/音频/思考链对 context 压缩不可见的问题 |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#1](https://github.com/HKUDS/ClawTeam/pull/1) | 首个 PR — 122 个测试、CI、团队模板、config 修复、任务耗时追踪 |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI 支持 — spawn、权限、prompt 注入双 backend 适配 |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#24](https://github.com/HKUDS/ClawTeam/pull/24) | 团队快照/恢复 — 长时间 agent swarm 的检查点和恢复机制 |
 
 ### 技术栈
 
