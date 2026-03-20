@@ -33,11 +33,13 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6527](https://github.com/AstrBotDevs/AstrBot/pull/6527) | Fix LLM tool selection — rewrote ambiguous Upload/Download descriptions |
 | [vLLM](https://github.com/vllm-project/vllm) (50k★) | [#37301](https://github.com/vllm-project/vllm/pull/37301) | Base64 JPEG video frames returning empty metadata — populate frame count, fps, duration |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6596](https://github.com/AstrBotDevs/AstrBot/pull/6596) | Multimodal token counting — images, audio, chain-of-thought were invisible to context compression |
-| [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#1](https://github.com/HKUDS/ClawTeam/pull/1) | First PR — 122 tests, CI, team templates, config bugfixes, task duration tracking |
-| [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI support — spawn, permissions, prompt injection for both backends |
-| [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#24](https://github.com/HKUDS/ClawTeam/pull/24) | Team snapshot/restore — checkpoint and recovery for long-running agent swarms |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#1](https://github.com/HKUDS/ClawTeam/pull/1) | First PR — 122 tests, CI, team templates, config bugfixes, task duration tracking |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI support — spawn, permissions, prompt injection for both backends |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#24](https://github.com/HKUDS/ClawTeam/pull/24) | Team snapshot/restore — checkpoint and recovery for long-running agent swarms |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#36](https://github.com/HKUDS/ClawTeam/pull/36) | Kimi CLI support — spawn backend, permission handling, 3 new test cases |
 | [LightRAG](https://github.com/HKUDS/LightRAG) (29k★) | [#2796](https://github.com/HKUDS/LightRAG/pull/2796) | Fix `None` file_path propagating as `unknown_source` — fill gaps left by #2793 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6581](https://github.com/AstrBotDevs/AstrBot/pull/6581) | Context truncation dropping the only user message — causes 400 from Zhipu/Gemini |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6656](https://github.com/AstrBotDevs/AstrBot/pull/6656) | `/stop` follow-up race — agent_stop flag not checked during follow-up capture |
 
 ### Tech
 
@@ -85,11 +87,13 @@ Python, C++, Go. Comfortable with Multi-agent system. I enjoy working at the int
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6527](https://github.com/AstrBotDevs/AstrBot/pull/6527) | 修复 LLM 工具选择 — 重写模糊的 Upload/Download 描述 |
 | [vLLM](https://github.com/vllm-project/vllm) (50k★) | [#37301](https://github.com/vllm-project/vllm/pull/37301) | 修复 base64 JPEG 视频帧返回空 metadata — 补充帧数、fps、时长 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6596](https://github.com/AstrBotDevs/AstrBot/pull/6596) | 多模态 token 计数 — 图片/音频/思考链对 context 压缩不可见的问题 |
-| [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#1](https://github.com/HKUDS/ClawTeam/pull/1) | 首个 PR — 122 个测试、CI、团队模板、config 修复、任务耗时追踪 |
-| [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI 支持 — spawn、权限、prompt 注入双 backend 适配 |
-| [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#24](https://github.com/HKUDS/ClawTeam/pull/24) | 团队快照/恢复 — 长时间 agent swarm 的检查点和恢复机制 |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#1](https://github.com/HKUDS/ClawTeam/pull/1) | 首个 PR — 122 个测试、CI、团队模板、config 修复、任务耗时追踪 |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI 支持 — spawn、权限、prompt 注入双 backend 适配 |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#24](https://github.com/HKUDS/ClawTeam/pull/24) | 团队快照/恢复 — 长时间 agent swarm 的检查点和恢复机制 |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#36](https://github.com/HKUDS/ClawTeam/pull/36) | Kimi CLI 支持 — spawn backend、权限处理、3 个新测试 |
 | [LightRAG](https://github.com/HKUDS/LightRAG) (29k★) | [#2796](https://github.com/HKUDS/LightRAG/pull/2796) | 修复 `None` file_path 传播为 `unknown_source` — 补 #2793 遗漏的处理层 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6581](https://github.com/AstrBotDevs/AstrBot/pull/6581) | 修复截断器丢失唯一 user 消息导致智谱/Gemini 返回 400 |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6656](https://github.com/AstrBotDevs/AstrBot/pull/6656) | 修复 `/stop` 后新消息仍被 follow-up 捕获的竞态条件 |
 
 ### 技术栈
 
