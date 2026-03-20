@@ -37,6 +37,7 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI support — spawn, permissions, prompt injection for both backends |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#24](https://github.com/HKUDS/ClawTeam/pull/24) | Team snapshot/restore — checkpoint and recovery for long-running agent swarms |
 | [LightRAG](https://github.com/HKUDS/LightRAG) (29k★) | [#2796](https://github.com/HKUDS/LightRAG/pull/2796) | Fix `None` file_path propagating as `unknown_source` — fill gaps left by #2793 |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6581](https://github.com/AstrBotDevs/AstrBot/pull/6581) | Context truncation dropping the only user message — causes 400 from Zhipu/Gemini |
 
 ### Tech
 
@@ -88,6 +89,7 @@ Python, C++, Go. Comfortable with Multi-agent system. I enjoy working at the int
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI 支持 — spawn、权限、prompt 注入双 backend 适配 |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (200+★) | [#24](https://github.com/HKUDS/ClawTeam/pull/24) | 团队快照/恢复 — 长时间 agent swarm 的检查点和恢复机制 |
 | [LightRAG](https://github.com/HKUDS/LightRAG) (29k★) | [#2796](https://github.com/HKUDS/LightRAG/pull/2796) | 修复 `None` file_path 传播为 `unknown_source` — 补 #2793 遗漏的处理层 |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6581](https://github.com/AstrBotDevs/AstrBot/pull/6581) | 修复截断器丢失唯一 user 消息导致智谱/Gemini 返回 400 |
 
 ### 技术栈
 
