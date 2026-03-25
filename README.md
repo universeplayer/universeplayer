@@ -43,6 +43,7 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6581](https://github.com/AstrBotDevs/AstrBot/pull/6581) | Context truncation dropping the only user message — causes 400 from Zhipu/Gemini |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6656](https://github.com/AstrBotDevs/AstrBot/pull/6656) | `/stop` follow-up race — agent_stop flag not checked during follow-up capture |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6710](https://github.com/AstrBotDevs/AstrBot/pull/6710) | Skills-like re-query dropping image captions — `extra_user_content_parts` not forwarded |
+| [Transformers](https://github.com/huggingface/transformers) (145k★) | [#44710](https://github.com/huggingface/transformers/pull/44710) | Fix `AutoProcessor.from_pretrained` silently dropping hub kwargs (`revision`, `token`, etc.) |
 
 ### Tech
 
@@ -100,6 +101,7 @@ Python, C++, Go. Comfortable with Multi-agent system. I enjoy working at the int
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6581](https://github.com/AstrBotDevs/AstrBot/pull/6581) | 修复截断器丢失唯一 user 消息导致智谱/Gemini 返回 400 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6656](https://github.com/AstrBotDevs/AstrBot/pull/6656) | 修复 `/stop` 后新消息仍被 follow-up 捕获的竞态条件 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6710](https://github.com/AstrBotDevs/AstrBot/pull/6710) | 修复 skills-like re-query 丢失图片描述 — `extra_user_content_parts` 未传递 |
+| [Transformers](https://github.com/huggingface/transformers) (145k★) | [#44710](https://github.com/huggingface/transformers/pull/44710) | 修复 `AutoProcessor.from_pretrained` 静默丢弃 hub kwargs（`revision`、`token` 等）|
 
 ### 技术栈
 
