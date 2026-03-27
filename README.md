@@ -39,6 +39,7 @@ Previously competed in ACM-ICPC (silver medals, BUPT). These days I mostly think
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI support — spawn, permissions, prompt injection for both backends |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#24](https://github.com/HKUDS/ClawTeam/pull/24) | Team snapshot/restore — checkpoint and recovery for long-running agent swarms |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#36](https://github.com/HKUDS/ClawTeam/pull/36) | Kimi CLI support — spawn backend, permission handling, 3 new test cases |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#40](https://github.com/HKUDS/ClawTeam/pull/40) | Pluggable TaskStore — extract task persistence into swappable backend abstraction |
 | [LightRAG](https://github.com/HKUDS/LightRAG) (29k★) | [#2796](https://github.com/HKUDS/LightRAG/pull/2796) | Fix `None` file_path propagating as `unknown_source` — fill gaps left by #2793 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6581](https://github.com/AstrBotDevs/AstrBot/pull/6581) | Context truncation dropping the only user message — causes 400 from Zhipu/Gemini |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6656](https://github.com/AstrBotDevs/AstrBot/pull/6656) | `/stop` follow-up race — agent_stop flag not checked during follow-up capture |
@@ -97,6 +98,7 @@ Python, C++, Go. Comfortable with Multi-agent system. I enjoy working at the int
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI 支持 — spawn、权限、prompt 注入双 backend 适配 |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#24](https://github.com/HKUDS/ClawTeam/pull/24) | 团队快照/恢复 — 长时间 agent swarm 的检查点和恢复机制 |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#36](https://github.com/HKUDS/ClawTeam/pull/36) | Kimi CLI 支持 — spawn backend、权限处理、3 个新测试 |
+| [ClawTeam](https://github.com/HKUDS/ClawTeam) (1.9k★) | [#40](https://github.com/HKUDS/ClawTeam/pull/40) | 可插拔 TaskStore — 将任务持久化抽取为可替换的后端抽象层 |
 | [LightRAG](https://github.com/HKUDS/LightRAG) (29k★) | [#2796](https://github.com/HKUDS/LightRAG/pull/2796) | 修复 `None` file_path 传播为 `unknown_source` — 补 #2793 遗漏的处理层 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6581](https://github.com/AstrBotDevs/AstrBot/pull/6581) | 修复截断器丢失唯一 user 消息导致智谱/Gemini 返回 400 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (24k★) | [#6656](https://github.com/AstrBotDevs/AstrBot/pull/6656) | 修复 `/stop` 后新消息仍被 follow-up 捕获的竞态条件 |
