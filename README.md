@@ -55,7 +55,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 
 ## Hi，我是何宇峰 👋
 
-[Moonshot AI](https://www.moonshot.cn/)（Kimi） AI Agent 研究员 | 港大计算机硕士 | 上海全球AI大赛冠军 | 三次获ACM-ICPC银牌 | 曾在百度、脉脉、快手的AI 研发岗实习
+[Moonshot AI](https://www.moonshot.cn/) (Kimi) AI Agent 研究员 | 港大计算机硕士 | 上海全球AI大赛冠军 | 三次获ACM-ICPC银牌 | 曾在百度、脉脉、快手的AI 研发岗实习
 
 ### 项目
 
