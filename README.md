@@ -1,4 +1,4 @@
-## Hey, I'm Yufeng 👋
+## Hey, I'm Yufeng He 👋
 
 Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @ HKU | Champion, Shanghai Global AI Contest | 3x ACM-ICPC Silver Medalist | Former Intern @ Baidu, Maimai, Kuaishou
 
@@ -50,13 +50,13 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 
 Python, C++, Go. I enjoy working at the intersection of systems and ML.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-yufenghe-blue?logo=linkedin)](https://www.linkedin.com/in/yufenghe)
+**LinkedIn**: https://www.linkedin.com/in/yufenghe
 
 ---
 
-## 嘿，我是宇峰 👋
+## Hi，我是何宇峰 👋
 
-[Moonshot AI](https://www.moonshot.cn/)（Kimi）Agentic AI 研究员 | 港大 CS 硕士 | 上海全球 AI 大赛冠军 | ACM-ICPC 三枚银牌 | 前百度、脉脉、快手实习
+[Moonshot AI](https://www.moonshot.cn/)（Kimi） AI Agent 研究员 | 港大计算机硕士 | 上海全球AI大赛冠军 | 三次获ACM-ICPC银牌 | 曾在百度、脉脉、快手的AI 研发岗实习
 
 ### 项目
 
@@ -102,8 +102,4 @@ Python, C++, Go. I enjoy working at the intersection of systems and ML.
 | [LightRAG](https://github.com/HKUDS/LightRAG) (31k★) | [#2796](https://github.com/HKUDS/LightRAG/pull/2796) | 修复 `None` file_path 传播为 `unknown_source`：补 #2793 遗漏的处理层 |
 | [OpenClaw](https://github.com/openclaw/openclaw) (343k★) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | 认证配置解析失败时记录日志而非静默吞掉 |
 
-### 技术栈
-
-Python, C++, Go. I enjoy working at the intersection of systems and ML.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-yufenghe-blue?logo=linkedin)](https://www.linkedin.com/in/yufenghe)
+### 领英LinkedIn: https://www.linkedin.com/in/yufenghe
