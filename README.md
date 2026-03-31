@@ -46,11 +46,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [LightRAG](https://github.com/HKUDS/LightRAG) (31k★) | [#2796](https://github.com/HKUDS/LightRAG/pull/2796) | Fix `None` file_path propagating as `unknown_source`: fill gaps left by #2793 |
 | [OpenClaw](https://github.com/openclaw/openclaw) (343k★) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | Log auth profile resolution failures instead of swallowing silently |
 
-### Tech
-
-Python, C++, Go. I enjoy working at the intersection of systems and ML.
-
-**LinkedIn**: https://www.linkedin.com/in/yufenghe
+###LinkedIn: https://www.linkedin.com/in/yufenghe
 
 ---
 
