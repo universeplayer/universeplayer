@@ -7,8 +7,8 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | Project | Stars | What it does |
 |---------|:-----:|-------------|
 | [NanoCoder](https://github.com/he-yufeng/NanoCoder) | NEW | 512K lines of Claude Code → 1,300 lines of Python. Every key architectural pattern, runnable. Any LLM. |
-| [MTSIR3-GAN](https://github.com/he-yufeng/MTSIR3-GAN) | 135+ | Adapting R3GAN (NeurIPS 2024) to multivariate time series imputation + adversarial refinement study |
 | [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 97+ | LLM-powered job toolkit: skill gap analysis, mock interviews, resume optimization |
+| [MTSIR3-GAN](https://github.com/he-yufeng/MTSIR3-GAN) | 135+ | Adapting R3GAN (NeurIPS 2024) to multivariate time series imputation + adversarial refinement study |
 | [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 67+ | Deep RL trading strategies with Double DQN and multi-factor alpha signals |
 | [Arxiv Paper Coding Agent](https://github.com/he-yufeng/Arxiv_Paper_Coding_Agent--HKU_COMP7103C_Data_mining_Assignment) | 36+ | Multi-LLM crew that reads a paper and produces a working implementation |
 | [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 43+ | AI agent that reviews contracts for red flags before you sign |
@@ -64,8 +64,8 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | 项目 | Stars | 简介 |
 |------|:-----:|------|
 | [NanoCoder](https://github.com/he-yufeng/NanoCoder) | NEW | Claude Code 51万行源码 → 1300行 Python 核心重写，支持任意大模型，附 7 篇架构导读 |
-| [MTSIR3-GAN](https://github.com/he-yufeng/MTSIR3-GAN) | 135+ | 将 R3GAN (NeurIPS 2024) 适配到多变量时序插补 + 对抗精炼实证研究 |
 | [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 97+ | LLM 求职工具箱：技能差距分析、模拟面试、简历优化 |
+| [MTSIR3-GAN](https://github.com/he-yufeng/MTSIR3-GAN) | 135+ | 将 R3GAN (NeurIPS 2024) 适配到多变量时序插补 + 对抗精炼实证研究 |
 | [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 67+ | 深度强化学习量化交易，Double DQN + 多因子 Alpha |
 | [Arxiv Paper Coding Agent](https://github.com/he-yufeng/Arxiv_Paper_Coding_Agent--HKU_COMP7103C_Data_mining_Assignment) | 36+ | 多 LLM 协作 Agent，读论文自动生成可运行代码 |
 | [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 43+ | AI 合同审查 Agent，签字前帮你找出霸王条款 |
