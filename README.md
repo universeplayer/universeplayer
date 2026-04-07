@@ -6,12 +6,13 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 
 | Project | Stars | What it does |
 |---------|:-----:|-------------|
-| [CoreCoder](https://github.com/he-yufeng/CoreCoder) | 265+ | 512K lines of Claude Code → 1,300 lines of Python. Every key architectural pattern, runnable. Any LLM. |
-| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 100+ | LLM-powered job toolkit: skill gap analysis, mock interviews, resume optimization |
+| [CoreCoder](https://github.com/he-yufeng/CoreCoder) | 328+ | 512K lines of Claude Code → 1,400 lines of Python. Every key architectural pattern, runnable. Any LLM. 7 architecture deep-dive articles. |
+| [AnyCoder](https://github.com/he-yufeng/AnyCoder) | new | AI coding agent CLI supporting 100+ LLMs via litellm. ~1,450 lines Python, dangerous command blocking, parallel tool execution, session persistence. |
+| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 102+ | LLM-powered job toolkit: skill gap analysis, mock interviews, resume optimization |
 | [MTSIR3-GAN](https://github.com/he-yufeng/MTSIR3-GAN) | 135+ | Adapting R3GAN (NeurIPS 2024) to multivariate time series imputation + adversarial refinement study |
-| [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 67+ | Deep RL trading strategies with Double DQN and multi-factor alpha signals |
+| [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 70+ | Deep RL trading strategies with Double DQN and multi-factor alpha signals |
 | [Arxiv Paper Coding Agent](https://github.com/he-yufeng/Arxiv_Paper_Coding_Agent--HKU_COMP7103C_Data_mining_Assignment) | 36+ | Multi-LLM crew that reads a paper and produces a working implementation |
-| [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 45+ | AI agent that reviews contracts for red flags before you sign |
+| [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 49+ | AI agent that reviews contracts for red flags before you sign |
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | 33+ | Pytest plugin for regression-testing AI agents: snapshot baselines, semantic comparison, mock LLMs |
 | [PromptDiff](https://github.com/he-yufeng/PromptDiff) | 25+ | Semantic diff for LLM prompts, compare prompt versions like git diff |
 | [TokenTracker](https://github.com/he-yufeng/TokenTracker) | 14+ | Drop-in LLM cost tracker, change one import line, see where your money goes |
@@ -26,6 +27,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1629](https://github.com/kvcache-ai/Mooncake/pull/1629) | GB200 MNNVL EP hang: `cudaMalloc` → `cuMemCreate(FABRIC)` + `cuMemMap` for cross-node NVLink |
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1728](https://github.com/kvcache-ai/Mooncake/pull/1728) | Hard pin for eviction-protected objects: model weights never get evicted, const field + BatchEvict skip + backward-compat serialization |
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1644](https://github.com/kvcache-ai/Mooncake/pull/1644) | MNNVL warmup hang: skip redundant handshake for fabric-connected nodes |
+| [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1825](https://github.com/kvcache-ai/Mooncake/pull/1825) | Fix `P2PClientService::Put` silently swallowing write errors: propagate actual error codes for non-idempotent failures |
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1626](https://github.com/kvcache-ai/Mooncake/pull/1626) | Silenced error log spam for non-memory replicas in metadata store |
 | [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#37884](https://github.com/vllm-project/vllm/pull/37884) | RoBERTa position_ids in-place accumulation on CUDA graph padding: BGE-M3 crash after ~4000 requests |
 | [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#37301](https://github.com/vllm-project/vllm/pull/37301) | Base64 JPEG video frames returning empty metadata: populate frame count, fps, duration |
@@ -66,12 +68,13 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 
 | 项目 | Stars | 简介 |
 |------|:-----:|------|
-| [CoreCoder](https://github.com/he-yufeng/CoreCoder) | 265+ | Claude Code 51万行源码 → 1300行 Python 核心重写，支持任意大模型，附 7 篇架构导读 |
-| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 100+ | LLM 求职工具箱：技能差距分析、模拟面试、简历优化 |
+| [CoreCoder](https://github.com/he-yufeng/CoreCoder) | 328+ | Claude Code 51万行源码 → 1400行 Python 核心重写，支持任意大模型，附 7 篇架构导读 |
+| [AnyCoder](https://github.com/he-yufeng/AnyCoder) | new | 终端 AI 编程 Agent，通过 litellm 支持 100+ 大模型，~1450 行 Python，危险命令拦截、并行执行、会话持久化 |
+| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 102+ | LLM 求职工具箱：技能差距分析、模拟面试、简历优化 |
 | [MTSIR3-GAN](https://github.com/he-yufeng/MTSIR3-GAN) | 135+ | 将 R3GAN (NeurIPS 2024) 适配到多变量时序插补 + 对抗精炼实证研究 |
-| [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 67+ | 深度强化学习量化交易，Double DQN + 多因子 Alpha |
+| [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 70+ | 深度强化学习量化交易，Double DQN + 多因子 Alpha |
 | [Arxiv Paper Coding Agent](https://github.com/he-yufeng/Arxiv_Paper_Coding_Agent--HKU_COMP7103C_Data_mining_Assignment) | 36+ | 多 LLM 协作 Agent，读论文自动生成可运行代码 |
-| [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 45+ | AI 合同审查 Agent，签字前帮你找出霸王条款 |
+| [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 49+ | AI 合同审查 Agent，签字前帮你找出霸王条款 |
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | 33+ | AI Agent 回归测试 pytest 插件：快照基线、语义比较、Mock LLM |
 | [PromptDiff](https://github.com/he-yufeng/PromptDiff) | 25+ | LLM prompt 语义 diff 工具，像 git diff 一样对比 prompt 版本 |
 | [TokenTracker](https://github.com/he-yufeng/TokenTracker) | 14+ | LLM 开销追踪，改一行 import 就能用 |
@@ -86,6 +89,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1629](https://github.com/kvcache-ai/Mooncake/pull/1629) | GB200 MNNVL EP hang：`cudaMalloc` → `cuMemCreate(FABRIC)` + `cuMemMap` 跨节点 NVLink 通信 |
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1728](https://github.com/kvcache-ai/Mooncake/pull/1728) | Hard pin 驱逐保护：模型权重永不被驱逐，const 字段 + BatchEvict 跳过 + 向后兼容序列化 |
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1644](https://github.com/kvcache-ai/Mooncake/pull/1644) | MNNVL warmup hang：跳过 fabric 连接节点的冗余握手 |
+| [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1825](https://github.com/kvcache-ai/Mooncake/pull/1825) | 修复 `P2PClientService::Put` 静默吞掉写入错误：传播实际错误码给调用方 |
 | [Mooncake](https://github.com/kvcache-ai/Mooncake) (5k★) | [#1626](https://github.com/kvcache-ai/Mooncake/pull/1626) | 修复非内存副本的错误日志刷屏 |
 | [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#37884](https://github.com/vllm-project/vllm/pull/37884) | 修复 RoBERTa position_ids 原地累积溢出：BGE-M3 约 4000 请求后 CUDA graph padding crash |
 | [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#37301](https://github.com/vllm-project/vllm/pull/37301) | 修复 base64 JPEG 视频帧返回空 metadata：补充帧数、fps、时长 |
