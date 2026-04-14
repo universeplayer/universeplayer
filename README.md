@@ -6,10 +6,10 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 
 | Project | Stars | What it does |
 |---------|:-----:|-------------|
-| [CoreCoder](https://github.com/he-yufeng/CoreCoder) | 501+ | 512K lines of Claude Code → 1,400 lines of Python. Every key architectural pattern, runnable. Any LLM. 7 architecture deep-dive articles. |
-| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 145+ | LLM-powered job toolkit: skill gap analysis, mock interviews, resume optimization |
+| [CoreCoder](https://github.com/he-yufeng/CoreCoder) | 528+ | 512K lines of Claude Code → 1,400 lines of Python. Every key architectural pattern, runnable. Any LLM. 7 architecture deep-dive articles. |
+| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 158+ | LLM-powered job toolkit: skill gap analysis, mock interviews, resume optimization |
 | [MTSIR3-GAN](https://github.com/he-yufeng/MTSIR3-GAN) | 134+ | Adapting R3GAN (NeurIPS 2024) to multivariate time series imputation + adversarial refinement study |
-| [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 92+ | AI agent that reviews contracts for red flags before you sign |
+| [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 99+ | AI agent that reviews contracts for red flags before you sign |
 | [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 74+ | Deep RL trading strategies with Double DQN and multi-factor alpha signals |
 | [Arxiv Paper Coding Agent](https://github.com/he-yufeng/Arxiv_Paper_Coding_Agent--HKU_COMP7103C_Data_mining_Assignment) | 37+ | Multi-LLM crew that reads a paper and produces a working implementation |
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | 34+ | Pytest plugin for regression-testing AI agents: snapshot baselines, semantic comparison, mock LLMs |
@@ -34,6 +34,8 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#37301](https://github.com/vllm-project/vllm/pull/37301) | Base64 JPEG video frames returning empty metadata: populate frame count, fps, duration |
 | [Transformers](https://github.com/huggingface/transformers) (158k★) | [#44710](https://github.com/huggingface/transformers/pull/44710) | Fix `AutoProcessor.from_pretrained` silently dropping hub kwargs (`revision`, `token`, etc.) |
 | [FlashInfer](https://github.com/flashinfer-ai/flashinfer) (5k★) | [#2756](https://github.com/flashinfer-ai/flashinfer/pull/2756) | Fix autotuner crash when input tensor is `None`: proper None-checking for optional inputs (fixes #2749) |
+| [FlashInfer](https://github.com/flashinfer-ai/flashinfer) (5k★) | [#2772](https://github.com/flashinfer-ai/flashinfer/pull/2772) | Fix compilation error: add missing `<optional>` header for `std::optional` usage in CUTLASS headers |
+| [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#37727](https://github.com/vllm-project/vllm/pull/37727) | Fix Responses API `instructions` leaking across turns via `previous_response_id` chain |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#6596](https://github.com/AstrBotDevs/AstrBot/pull/6596) | Multimodal token counting: images, audio, chain-of-thought were invisible to context compression |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#6474](https://github.com/AstrBotDevs/AstrBot/pull/6474) | SQLite `database is locked` under concurrent writes: added busy timeout |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#7003](https://github.com/AstrBotDevs/AstrBot/pull/7003) | SSE heartbeat for WebChat: long context compression killed the connection |
@@ -71,10 +73,10 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 
 | 项目 | Stars | 简介 |
 |------|:-----:|------|
-| [CoreCoder](https://github.com/he-yufeng/CoreCoder) | 501+ | Claude Code 51万行源码 → 1400行 Python 核心重写，支持任意大模型，附 7 篇架构导读 |
-| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 145+ | LLM 求职工具箱：技能差距分析、模拟面试、简历优化 |
+| [CoreCoder](https://github.com/he-yufeng/CoreCoder) | 528+ | Claude Code 51万行源码 → 1400行 Python 核心重写，支持任意大模型，附 7 篇架构导读 |
+| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 158+ | LLM 求职工具箱：技能差距分析、模拟面试、简历优化 |
 | [MTSIR3-GAN](https://github.com/he-yufeng/MTSIR3-GAN) | 134+ | 将 R3GAN (NeurIPS 2024) 适配到多变量时序插补 + 对抗精炼实证研究 |
-| [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 92+ | AI 合同审查 Agent，签字前帮你找出霸王条款 |
+| [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 99+ | AI 合同审查 Agent，签字前帮你找出霸王条款 |
 | [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 74+ | 深度强化学习量化交易，Double DQN + 多因子 Alpha |
 | [Arxiv Paper Coding Agent](https://github.com/he-yufeng/Arxiv_Paper_Coding_Agent--HKU_COMP7103C_Data_mining_Assignment) | 37+ | 多 LLM 协作 Agent，读论文自动生成可运行代码 |
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | 34+ | AI Agent 回归测试 pytest 插件：快照基线、语义比较、Mock LLM |
@@ -99,6 +101,8 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#37301](https://github.com/vllm-project/vllm/pull/37301) | 修复 base64 JPEG 视频帧返回空 metadata：补充帧数、fps、时长 |
 | [Transformers](https://github.com/huggingface/transformers) (158k★) | [#44710](https://github.com/huggingface/transformers/pull/44710) | 修复 `AutoProcessor.from_pretrained` 静默丢弃 hub kwargs（`revision`、`token` 等）|
 | [FlashInfer](https://github.com/flashinfer-ai/flashinfer) (5k★) | [#2756](https://github.com/flashinfer-ai/flashinfer/pull/2756) | 修复 autotuner 在输入 tensor 为 `None` 时崩溃（fixes #2749）|
+| [FlashInfer](https://github.com/flashinfer-ai/flashinfer) (5k★) | [#2772](https://github.com/flashinfer-ai/flashinfer/pull/2772) | 修复编译错误：CUTLASS 头文件缺少 `<optional>` include 导致 `std::optional` 未定义 |
+| [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#37727](https://github.com/vllm-project/vllm/pull/37727) | 修复 Responses API 的 `instructions` 通过 `previous_response_id` 链泄漏到后续轮次 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#6596](https://github.com/AstrBotDevs/AstrBot/pull/6596) | 多模态 token 计数：图片/音频/思考链对 context 压缩不可见的问题 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#6474](https://github.com/AstrBotDevs/AstrBot/pull/6474) | 修复 SQLite 并发写入 `database is locked`，添加 busy timeout |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#7003](https://github.com/AstrBotDevs/AstrBot/pull/7003) | 修复 WebChat 长响应断连：SSE 心跳保活，context 压缩期间不再超时 |
