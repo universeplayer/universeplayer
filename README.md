@@ -19,6 +19,8 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [TokenTracker](https://github.com/he-yufeng/TokenTracker) | 18+ | Drop-in LLM cost tracker, change one import line, see where your money goes |
 | [AnyCoder](https://github.com/he-yufeng/AnyCoder) | 15+ | AI coding agent CLI supporting 100+ LLMs via litellm. ~1,450 lines Python, dangerous command blocking, parallel tool execution, session persistence. |
 | [BatchLLM](https://github.com/he-yufeng/BatchLLM) | 15+ | Batch LLM processing: CSV in, processed CSV out, with retries and cost tracking |
+| [RepoWiki](https://github.com/he-yufeng/RepoWiki) | new | Open-source DeepWiki alternative: generate wiki docs for any codebase from CLI or browser. PageRank file ranking, Mermaid diagrams, reading guides. |
+| [CodeABC](https://github.com/he-yufeng/CodeABC) | 2+ | AI code reader for non-programmers: drag in a project, get plain-language explanations with hover annotations |
 
 ### Open Source Contributions
 
@@ -86,6 +88,8 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [TokenTracker](https://github.com/he-yufeng/TokenTracker) | 18+ | LLM 开销追踪，改一行 import 就能用 |
 | [AnyCoder](https://github.com/he-yufeng/AnyCoder) | 15+ | 终端 AI 编程 Agent，通过 litellm 支持 100+ 大模型，~1450 行 Python，危险命令拦截、并行执行、会话持久化 |
 | [BatchLLM](https://github.com/he-yufeng/BatchLLM) | 15+ | LLM 批量处理：CSV 进 CSV 出，自动重试 + 费用追踪 |
+| [RepoWiki](https://github.com/he-yufeng/RepoWiki) | new | 开源 DeepWiki 替代品：CLI 或浏览器生成仓库 wiki 文档，PageRank 文件排名、Mermaid 架构图、阅读指南 |
+| [CodeABC](https://github.com/he-yufeng/CodeABC) | 2+ | 面向非程序员的 AI 代码阅读器：拖入项目，生成大白话逐行批注 |
 
 ### 开源贡献
 
