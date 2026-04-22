@@ -54,6 +54,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#7196](https://github.com/AstrBotDevs/AstrBot/pull/7196) | Fix Gemini thinking parts leaking into user-facing response |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#7398](https://github.com/AstrBotDevs/AstrBot/pull/7398) | Fix Telegram sendMessageDraft spamming 400 errors on empty text in streaming mode |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#7407](https://github.com/AstrBotDevs/AstrBot/pull/7407) | Fix Gemini native search 400 when no function tools: skip FunctionCallingConfig |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#7537](https://github.com/AstrBotDevs/AstrBot/pull/7537) | Prevent Telegram media group exceptions from being silently swallowed by APScheduler |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#6551](https://github.com/AstrBotDevs/AstrBot/pull/6551) | Fix empty content causing Grok 400: set content to None when empty |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (4.1k★) | [#1](https://github.com/HKUDS/ClawTeam/pull/1) | First PR: 122 tests, CI, team templates, config bugfixes, task duration tracking |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (4.1k★) | [#40](https://github.com/HKUDS/ClawTeam/pull/40) | Pluggable TaskStore: extract task persistence into swappable backend abstraction |
@@ -125,6 +126,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#7196](https://github.com/AstrBotDevs/AstrBot/pull/7196) | 修复 Gemini thinking parts 泄漏到用户可见的消息内容中 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#7398](https://github.com/AstrBotDevs/AstrBot/pull/7398) | 修复 Telegram 流式模式下空文本 sendMessageDraft 导致 400 错误刷屏 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#7407](https://github.com/AstrBotDevs/AstrBot/pull/7407) | 修复 Gemini 原生搜索无 function tools 时 400：跳过 FunctionCallingConfig |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#7537](https://github.com/AstrBotDevs/AstrBot/pull/7537) | 修复 Telegram media group 异常被 APScheduler 静默吞掉：try/except + EVENT_JOB_ERROR listener |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#6551](https://github.com/AstrBotDevs/AstrBot/pull/6551) | 修复空 content 导致 Grok 400：content 为空时设为 None |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (4.1k★) | [#1](https://github.com/HKUDS/ClawTeam/pull/1) | 首个 PR：122 个测试、CI、团队模板、config 修复、任务耗时追踪 |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (4.1k★) | [#40](https://github.com/HKUDS/ClawTeam/pull/40) | 可插拔 TaskStore：将任务持久化抽取为可替换的后端抽象层 |
