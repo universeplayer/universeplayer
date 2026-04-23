@@ -62,6 +62,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (4.1k★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI support: spawn, permissions, prompt injection for both backends |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (4.1k★) | [#36](https://github.com/HKUDS/ClawTeam/pull/36) | Kimi CLI support: spawn backend, permission handling, 3 new test cases |
 | [LightRAG](https://github.com/HKUDS/LightRAG) (31k★) | [#2796](https://github.com/HKUDS/LightRAG/pull/2796) | Fix `None` file_path propagating as `unknown_source`: fill gaps left by #2793 |
+| [OpenHarness](https://github.com/HKUDS/OpenHarness) (11k★) | [#185](https://github.com/HKUDS/OpenHarness/pull/185) | TUI tab-completion: fix cursor jump, strip trailing space, accept `/quit` alias |
 | [OpenClaw](https://github.com/openclaw/openclaw) (343k★) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | Log auth profile resolution failures instead of swallowing silently |
 
 ### LinkedIn: https://www.linkedin.com/in/yufenghe
@@ -134,6 +135,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (4.1k★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI 支持：spawn、权限、prompt 注入双 backend 适配 |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (4.1k★) | [#36](https://github.com/HKUDS/ClawTeam/pull/36) | Kimi CLI 支持：spawn backend、权限处理、3 个新测试 |
 | [LightRAG](https://github.com/HKUDS/LightRAG) (31k★) | [#2796](https://github.com/HKUDS/LightRAG/pull/2796) | 修复 `None` file_path 传播为 `unknown_source`：补 #2793 遗漏的处理层 |
+| [OpenHarness](https://github.com/HKUDS/OpenHarness) (11k★) | [#185](https://github.com/HKUDS/OpenHarness/pull/185) | TUI tab 补全三合一修复：光标跳回、去除尾部空格、接受 `/quit` 别名 |
 | [OpenClaw](https://github.com/openclaw/openclaw) (343k★) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | 认证配置解析失败时记录日志而非静默吞掉 |
 
 ### 领英LinkedIn: https://www.linkedin.com/in/yufenghe
