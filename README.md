@@ -21,6 +21,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [BatchLLM](https://github.com/he-yufeng/BatchLLM) | 17+ | Batch LLM processing: CSV in, processed CSV out, with retries and cost tracking |
 | [RepoWiki](https://github.com/he-yufeng/RepoWiki) | 4+ | Open-source DeepWiki alternative: generate wiki docs for any codebase from CLI or browser. PageRank file ranking, Mermaid diagrams, reading guides. |
 | [CodeABC](https://github.com/he-yufeng/CodeABC) | 3+ | AI code reader for non-programmers: drag in a project, get plain-language explanations with hover annotations |
+| [LiteBench](https://github.com/he-yufeng/LiteBench) | new | Pip-installable LLM/agent benchmark CLI. 6 built-in tasks (HumanEval/GSM8K/MMLU/MATH-500/TruthfulQA/ARC) + custom YAML + LLM-as-judge. 100+ models via litellm. |
 
 ### Open Source Contributions
 
