@@ -6,21 +6,21 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 
 | Project | Stars | What it does |
 |---------|:-----:|-------------|
-| [CoreCoder](https://github.com/he-yufeng/CoreCoder) | 552+ | 512K lines of Claude Code → 1,400 lines of Python. Every key architectural pattern, runnable. Any LLM. 7 architecture deep-dive articles. |
-| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 182+ | LLM-powered job toolkit: skill gap analysis, mock interviews, resume optimization |
+| [CoreCoder](https://github.com/he-yufeng/CoreCoder) | 616+ | 512K lines of Claude Code → 1,400 lines of Python. Every key architectural pattern, runnable. Any LLM. 7 architecture deep-dive articles. |
+| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 203+ | LLM-powered job toolkit: skill gap analysis, mock interviews, resume optimization |
 | [MTSIR3-GAN](https://github.com/he-yufeng/MTSIR3-GAN) | 134+ | Adapting R3GAN (NeurIPS 2024) to multivariate time series imputation + adversarial refinement study |
-| [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 99+ | AI agent that reviews contracts for red flags before you sign |
-| [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 74+ | Deep RL trading strategies with Double DQN and multi-factor alpha signals |
+| [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 102+ | AI agent that reviews contracts for red flags before you sign |
+| [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 75+ | Deep RL trading strategies with Double DQN and multi-factor alpha signals |
 | [Arxiv Paper Coding Agent](https://github.com/he-yufeng/Arxiv_Paper_Coding_Agent--HKU_COMP7103C_Data_mining_Assignment) | 37+ | Multi-LLM crew that reads a paper and produces a working implementation |
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | 34+ | Pytest plugin for regression-testing AI agents: snapshot baselines, semantic comparison, mock LLMs |
 | [PromptDiff](https://github.com/he-yufeng/PromptDiff) | 25+ | Semantic diff for LLM prompts, compare prompt versions like git diff |
-| [RuleForge](https://github.com/he-yufeng/RuleForge) | 27+ | Auto-generate AI assistant rules (CLAUDE.md, .cursorrules) from codebase analysis |
-| [GitSense](https://github.com/he-yufeng/GitSense) | 27+ | AI-powered open source contribution finder, tell it your skills, it finds issues |
-| [TokenTracker](https://github.com/he-yufeng/TokenTracker) | 20+ | Drop-in LLM cost tracker, change one import line, see where your money goes |
-| [AnyCoder](https://github.com/he-yufeng/AnyCoder) | 16+ | AI coding agent CLI supporting 100+ LLMs via litellm. ~1,450 lines Python, dangerous command blocking, parallel tool execution, session persistence. |
-| [BatchLLM](https://github.com/he-yufeng/BatchLLM) | 17+ | Batch LLM processing: CSV in, processed CSV out, with retries and cost tracking |
-| [RepoWiki](https://github.com/he-yufeng/RepoWiki) | 4+ | Open-source DeepWiki alternative: generate wiki docs for any codebase from CLI or browser. PageRank file ranking, Mermaid diagrams, reading guides. |
-| [CodeABC](https://github.com/he-yufeng/CodeABC) | 3+ | AI code reader for non-programmers: drag in a project, get plain-language explanations with hover annotations |
+| [RuleForge](https://github.com/he-yufeng/RuleForge) | 34+ | Auto-generate AI assistant rules (CLAUDE.md, .cursorrules) from codebase analysis |
+| [GitSense](https://github.com/he-yufeng/GitSense) | 38+ | AI-powered open source contribution finder, tell it your skills, it finds issues |
+| [TokenTracker](https://github.com/he-yufeng/TokenTracker) | 25+ | Drop-in LLM cost tracker, change one import line, see where your money goes |
+| [AnyCoder](https://github.com/he-yufeng/AnyCoder) | 17+ | AI coding agent CLI supporting 100+ LLMs via litellm. ~1,450 lines Python, dangerous command blocking, parallel tool execution, session persistence. |
+| [BatchLLM](https://github.com/he-yufeng/BatchLLM) | 21+ | Batch LLM processing: CSV in, processed CSV out, with retries and cost tracking |
+| [RepoWiki](https://github.com/he-yufeng/RepoWiki) | 83+ | Open-source DeepWiki alternative: generate wiki docs for any codebase from CLI or browser. PageRank file ranking, Mermaid diagrams, reading guides. |
+| [CodeABC](https://github.com/he-yufeng/CodeABC) | 34+ | AI code reader for non-programmers: drag in a project, get plain-language explanations with hover annotations |
 | [LiteBench](https://github.com/he-yufeng/LiteBench) | new | Pip-installable LLM/agent benchmark CLI. 6 built-in tasks + agent mode (tool-use eval) + custom YAML + LLM-as-judge. 100+ models via litellm. |
 
 ### Open Source Contributions
@@ -79,21 +79,21 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 
 | 项目 | Stars | 简介 |
 |------|:-----:|------|
-| [CoreCoder](https://github.com/he-yufeng/CoreCoder) | 552+ | Claude Code 51万行源码 → 1400行 Python 核心重写，支持任意大模型，附 7 篇架构导读 |
-| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 182+ | LLM 求职工具箱：技能差距分析、模拟面试、简历优化 |
+| [CoreCoder](https://github.com/he-yufeng/CoreCoder) | 616+ | Claude Code 51万行源码 → 1400行 Python 核心重写，支持任意大模型，附 7 篇架构导读 |
+| [FindJobs-Agent](https://github.com/he-yufeng/FindJobs-Agent) | 203+ | LLM 求职工具箱：技能差距分析、模拟面试、简历优化 |
 | [MTSIR3-GAN](https://github.com/he-yufeng/MTSIR3-GAN) | 134+ | 将 R3GAN (NeurIPS 2024) 适配到多变量时序插补 + 对抗精炼实证研究 |
-| [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 99+ | AI 合同审查 Agent，签字前帮你找出霸王条款 |
-| [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 74+ | 深度强化学习量化交易，Double DQN + 多因子 Alpha |
+| [ContractGuard](https://github.com/he-yufeng/ContractGuard) | 102+ | AI 合同审查 Agent，签字前帮你找出霸王条款 |
+| [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 75+ | 深度强化学习量化交易，Double DQN + 多因子 Alpha |
 | [Arxiv Paper Coding Agent](https://github.com/he-yufeng/Arxiv_Paper_Coding_Agent--HKU_COMP7103C_Data_mining_Assignment) | 37+ | 多 LLM 协作 Agent，读论文自动生成可运行代码 |
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | 34+ | AI Agent 回归测试 pytest 插件：快照基线、语义比较、Mock LLM |
 | [PromptDiff](https://github.com/he-yufeng/PromptDiff) | 25+ | LLM prompt 语义 diff 工具，像 git diff 一样对比 prompt 版本 |
-| [RuleForge](https://github.com/he-yufeng/RuleForge) | 27+ | 从代码库自动生成 AI 助手规则（CLAUDE.md、.cursorrules）|
-| [GitSense](https://github.com/he-yufeng/GitSense) | 27+ | AI 驱动的开源贡献发现器，输入技能自动找 issue |
-| [TokenTracker](https://github.com/he-yufeng/TokenTracker) | 20+ | LLM 开销追踪，改一行 import 就能用 |
-| [AnyCoder](https://github.com/he-yufeng/AnyCoder) | 16+ | 终端 AI 编程 Agent，通过 litellm 支持 100+ 大模型，~1450 行 Python，危险命令拦截、并行执行、会话持久化 |
-| [BatchLLM](https://github.com/he-yufeng/BatchLLM) | 17+ | LLM 批量处理：CSV 进 CSV 出，自动重试 + 费用追踪 |
-| [RepoWiki](https://github.com/he-yufeng/RepoWiki) | 4+ | 开源 DeepWiki 替代品：CLI 或浏览器生成仓库 wiki 文档，PageRank 文件排名、Mermaid 架构图、阅读指南 |
-| [CodeABC](https://github.com/he-yufeng/CodeABC) | 3+ | 面向非程序员的 AI 代码阅读器：拖入项目，生成大白话逐行批注 |
+| [RuleForge](https://github.com/he-yufeng/RuleForge) | 34+ | 从代码库自动生成 AI 助手规则（CLAUDE.md、.cursorrules）|
+| [GitSense](https://github.com/he-yufeng/GitSense) | 38+ | AI 驱动的开源贡献发现器，输入技能自动找 issue |
+| [TokenTracker](https://github.com/he-yufeng/TokenTracker) | 25+ | LLM 开销追踪，改一行 import 就能用 |
+| [AnyCoder](https://github.com/he-yufeng/AnyCoder) | 17+ | 终端 AI 编程 Agent，通过 litellm 支持 100+ 大模型，~1450 行 Python，危险命令拦截、并行执行、会话持久化 |
+| [BatchLLM](https://github.com/he-yufeng/BatchLLM) | 21+ | LLM 批量处理：CSV 进 CSV 出，自动重试 + 费用追踪 |
+| [RepoWiki](https://github.com/he-yufeng/RepoWiki) | 83+ | 开源 DeepWiki 替代品：CLI 或浏览器生成仓库 wiki 文档，PageRank 文件排名、Mermaid 架构图、阅读指南 |
+| [CodeABC](https://github.com/he-yufeng/CodeABC) | 34+ | 面向非程序员的 AI 代码阅读器：拖入项目，生成大白话逐行批注 |
 
 ### 开源贡献
 
