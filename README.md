@@ -22,6 +22,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [RepoWiki](https://github.com/he-yufeng/RepoWiki) | 83+ | Open-source DeepWiki alternative: generate wiki docs for any codebase from CLI or browser. PageRank file ranking, Mermaid diagrams, reading guides. |
 | [CodeABC](https://github.com/he-yufeng/CodeABC) | 34+ | AI code reader for non-programmers: drag in a project, get plain-language explanations with hover annotations |
 | [LiteBench](https://github.com/he-yufeng/LiteBench) | new | Pip-installable LLM/agent benchmark CLI + web dashboard. 6 built-in tasks + agent mode (tool-use eval) + custom YAML + LLM-as-judge + `litebench serve`. 100+ models via litellm. |
+| [CodeJoust](https://github.com/he-yufeng/CodeJoust) | new | A CLI arena for AI coding agents. Throw one bug at Claude Code + aider (Codex/Cursor/Gemini next), each runs in its own `git worktree`, scored by tests + cost + diff + time. `pip install codejoust`. |
 
 ### Open Source Contributions
 
@@ -95,6 +96,8 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [BatchLLM](https://github.com/he-yufeng/BatchLLM) | 21+ | LLM 批量处理：CSV 进 CSV 出，自动重试 + 费用追踪 |
 | [RepoWiki](https://github.com/he-yufeng/RepoWiki) | 83+ | 开源 DeepWiki 替代品：CLI 或浏览器生成仓库 wiki 文档，PageRank 文件排名、Mermaid 架构图、阅读指南 |
 | [CodeABC](https://github.com/he-yufeng/CodeABC) | 34+ | 面向非程序员的 AI 代码阅读器：拖入项目，生成大白话逐行批注 |
+| [LiteBench](https://github.com/he-yufeng/LiteBench) | 新 | 一条命令跑 LLM / Agent benchmark 的轻量 CLI + Web 面板：6 个内置任务 + agent 模式 + 自定义 YAML + LLM judge + `litebench serve`。litellm 支持 100+ 模型 |
+| [CodeJoust](https://github.com/he-yufeng/CodeJoust) | 新 | AI 编程 Agent 擂台：一条命令让 Claude Code、aider（下一步 Codex / Cursor / Gemini）在独立 git worktree 里解同一个 bug，按测试通过率、成本、diff 大小、耗时打分选最优 patch。`pip install codejoust` |
 
 ### 开源贡献
 
