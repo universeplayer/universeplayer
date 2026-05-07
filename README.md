@@ -45,6 +45,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [FlashInfer](https://github.com/flashinfer-ai/flashinfer) (5k★) | [#2772](https://github.com/flashinfer-ai/flashinfer/pull/2772) | Fix compilation error: add missing `<optional>` header for `std::optional` usage in CUTLASS headers |
 | [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#37727](https://github.com/vllm-project/vllm/pull/37727) | Fix Responses API `instructions` leaking across turns via `previous_response_id` chain |
 | [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#38732](https://github.com/vllm-project/vllm/pull/38732) | Fix bench_serve UTF-8 decode crash on split multi-byte chars in streaming chunks |
+| [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#40749](https://github.com/vllm-project/vllm/pull/40749) | Helped unblock async PP fix with independent repro evidence for the last-rank sampled-token receive assertion |
 | [SGLang](https://github.com/sgl-project/sglang) (25k★) | [#20739](https://github.com/sgl-project/sglang/pull/20739) | Fix hybrid_linear_attn_backend crash when used with ngram speculative decoding |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#6596](https://github.com/AstrBotDevs/AstrBot/pull/6596) | Multimodal token counting: images, audio, chain-of-thought were invisible to context compression |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#7758](https://github.com/AstrBotDevs/AstrBot/pull/7758) | Apply empty-assistant message filter to streaming OpenAI path: strict providers no longer 400 on reasoning-only turns |
@@ -124,6 +125,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [FlashInfer](https://github.com/flashinfer-ai/flashinfer) (5k★) | [#2772](https://github.com/flashinfer-ai/flashinfer/pull/2772) | 修复编译错误：CUTLASS 头文件缺少 `<optional>` include 导致 `std::optional` 未定义 |
 | [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#37727](https://github.com/vllm-project/vllm/pull/37727) | 修复 Responses API 的 `instructions` 通过 `previous_response_id` 链泄漏到后续轮次 |
 | [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#38732](https://github.com/vllm-project/vllm/pull/38732) | 修复 bench_serve 流式响应拆分多字节 UTF-8 字符导致 decode 崩溃 |
+| [vLLM](https://github.com/vllm-project/vllm) (74k★) | [#40749](https://github.com/vllm-project/vllm/pull/40749) | 补充独立复现证据，帮助确认 async PP last-rank sampled-token receive assertion 的真实可达路径 |
 | [SGLang](https://github.com/sgl-project/sglang) (25k★) | [#20739](https://github.com/sgl-project/sglang/pull/20739) | 修复 hybrid_linear_attn_backend 与 ngram 投机采样同时使用时崩溃 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#6596](https://github.com/AstrBotDevs/AstrBot/pull/6596) | 多模态 token 计数：图片/音频/思考链对 context 压缩不可见的问题 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (28k★) | [#7758](https://github.com/AstrBotDevs/AstrBot/pull/7758) | 修复 OpenAI streaming 路径复用 empty-assistant 过滤：reasoning-only 历史不再让严格 provider 返回 400 |
