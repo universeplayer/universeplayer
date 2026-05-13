@@ -13,6 +13,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 75+ | Deep RL trading strategies with Double DQN and multi-factor alpha signals |
 | [Arxiv Paper Coding Agent](https://github.com/he-yufeng/Arxiv_Paper_Coding_Agent--HKU_COMP7103C_Data_mining_Assignment) | 37+ | Multi-LLM crew that reads a paper and produces a working implementation |
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | 34+ | Pytest plugin for regression-testing AI agents: snapshot baselines, semantic comparison, mock LLMs |
+| [MCPReady](https://github.com/he-yufeng/MCPReady) | new | CI gate for MCP servers: handshake, tools/list, schema checks, secret-leak scan, Markdown/JSON reports, GitHub Action |
 | [PromptDiff](https://github.com/he-yufeng/PromptDiff) | 25+ | Semantic diff for LLM prompts, compare prompt versions like git diff |
 | [RuleForge](https://github.com/he-yufeng/RuleForge) | 34+ | Auto-generate AI assistant rules (CLAUDE.md, .cursorrules) from codebase analysis |
 | [GitSense](https://github.com/he-yufeng/GitSense) | 38+ | AI-powered open source contribution finder, tell it your skills, it finds issues |
@@ -102,6 +103,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [DRL-MultiFactorTrading](https://github.com/he-yufeng/DRL-MultiFactorTrading) | 75+ | 深度强化学习量化交易，Double DQN + 多因子 Alpha |
 | [Arxiv Paper Coding Agent](https://github.com/he-yufeng/Arxiv_Paper_Coding_Agent--HKU_COMP7103C_Data_mining_Assignment) | 37+ | 多 LLM 协作 Agent，读论文自动生成可运行代码 |
 | [AgentProbe](https://github.com/he-yufeng/AgentProbe) | 34+ | AI Agent 回归测试 pytest 插件：快照基线、语义比较、Mock LLM |
+| [MCPReady](https://github.com/he-yufeng/MCPReady) | 新 | MCP Server CI 质量门禁：握手、tools/list、schema 检查、明显 token 泄露扫描，输出 Markdown/JSON 报告并提供 GitHub Action |
 | [PromptDiff](https://github.com/he-yufeng/PromptDiff) | 25+ | LLM prompt 语义 diff 工具，像 git diff 一样对比 prompt 版本 |
 | [RuleForge](https://github.com/he-yufeng/RuleForge) | 34+ | 从代码库自动生成 AI 助手规则（CLAUDE.md、.cursorrules）|
 | [GitSense](https://github.com/he-yufeng/GitSense) | 38+ | AI 驱动的开源贡献发现器，输入技能自动找 issue |
