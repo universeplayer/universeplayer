@@ -16,7 +16,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [MCPReady](https://github.com/he-yufeng/MCPReady) | 1+ | CI gate for MCP servers: handshake, tools/list, schema checks, secret-leak scan, Markdown/JSON reports, GitHub Action |
 | [PromptDiff](https://github.com/he-yufeng/PromptDiff) | 25+ | Semantic diff for LLM prompts, compare prompt versions like git diff |
 | [RuleForge](https://github.com/he-yufeng/RuleForge) | 55+ | Auto-generate AI assistant rules (CLAUDE.md, .cursorrules) from codebase analysis |
-| [GitSense](https://github.com/he-yufeng/GitSense) | 38+ | AI-powered open source contribution finder, tell it your skills, it finds issues |
+| [GitSense](https://github.com/he-yufeng/GitSense) | 38+ | AI-powered contribution finder and repo radar: find matching issues, then check PR merge signals |
 | [TokenTracker](https://github.com/he-yufeng/TokenTracker) | 32+ | Drop-in LLM cost tracker, change one import line, see where your money goes |
 | [AnyCoder](https://github.com/he-yufeng/AnyCoder) | 18+ | AI coding agent CLI supporting 100+ LLMs via litellm. ~1,450 lines Python, dangerous command blocking, parallel tool execution, session persistence. |
 | [BatchLLM](https://github.com/he-yufeng/BatchLLM) | 26+ | Batch LLM processing: CSV in, processed CSV out, with retries and cost tracking |
@@ -125,7 +125,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [MCPReady](https://github.com/he-yufeng/MCPReady) | 1+ | MCP Server CI 质量门禁：握手、tools/list、schema 检查、明显 token 泄露扫描，输出 Markdown/JSON 报告并提供 GitHub Action |
 | [PromptDiff](https://github.com/he-yufeng/PromptDiff) | 25+ | LLM prompt 语义 diff 工具，像 git diff 一样对比 prompt 版本 |
 | [RuleForge](https://github.com/he-yufeng/RuleForge) | 55+ | 从代码库自动生成 AI 助手规则（CLAUDE.md、.cursorrules）|
-| [GitSense](https://github.com/he-yufeng/GitSense) | 38+ | AI 驱动的开源贡献发现器，输入技能自动找 issue |
+| [GitSense](https://github.com/he-yufeng/GitSense) | 38+ | AI 开源贡献发现器 + 仓库雷达：找匹配 issue，也评估 PR 合入友好度 |
 | [TokenTracker](https://github.com/he-yufeng/TokenTracker) | 32+ | LLM 开销追踪，改一行 import 就能用 |
 | [AnyCoder](https://github.com/he-yufeng/AnyCoder) | 18+ | 终端 AI 编程 Agent，通过 litellm 支持 100+ 大模型，~1450 行 Python，危险命令拦截、并行执行、会话持久化 |
 | [BatchLLM](https://github.com/he-yufeng/BatchLLM) | 26+ | LLM 批量处理：CSV 进 CSV 出，自动重试 + 费用追踪 |
