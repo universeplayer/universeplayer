@@ -60,6 +60,8 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 
 | Project | PR | What I Fixed |
 |---------|:--:|-------------|
+| [OpenClaw](https://github.com/openclaw/openclaw) (375k★) | [#41259](https://github.com/openclaw/openclaw/pull/41259) | Propagate memory directory creation failures instead of continuing after a failed `ensureDir` |
+| [OpenClaw](https://github.com/openclaw/openclaw) (375k★) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | Log auth profile resolution failures instead of swallowing silently |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (10.8k★) | [#5462](https://github.com/microsoft/agent-framework/pull/5462) | Fix `background=True` + tools infinite-retrieve loop: clear completed continuation state so tool results get posted |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (10.8k★) | [#5778](https://github.com/microsoft/agent-framework/pull/5778) | Declare Magentic protocol messages so orchestrator chat/reset signals deserialize instead of failing on unknown types |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (10.8k★) | [#5808](https://github.com/microsoft/agent-framework/pull/5808) | Fix handoff message role mutation so retries reuse sanitized messages without leaking role changes |
@@ -113,8 +115,6 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (5.3k★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI support: spawn, permissions, prompt injection for both backends |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (5.3k★) | [#36](https://github.com/HKUDS/ClawTeam/pull/36) | Kimi CLI support: spawn backend, permission handling, 3 new test cases |
 | [OpenHarness](https://github.com/HKUDS/OpenHarness) (13.2k★) | [#185](https://github.com/HKUDS/OpenHarness/pull/185) | TUI tab-completion: fix cursor jump, strip trailing space, accept `/quit` alias |
-| [OpenClaw](https://github.com/openclaw/openclaw) (375k★) | [#41259](https://github.com/openclaw/openclaw/pull/41259) | Propagate memory directory creation failures instead of continuing after a failed `ensureDir` |
-| [OpenClaw](https://github.com/openclaw/openclaw) (375k★) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | Log auth profile resolution failures instead of swallowing silently |
 
 #### Applied AI / RAG / observability
 
@@ -200,6 +200,8 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 
 | 项目 | PR | 修了啥 |
 |------|:--:|--------|
+| [OpenClaw](https://github.com/openclaw/openclaw) (375k★) | [#41259](https://github.com/openclaw/openclaw/pull/41259) | 目录创建失败时向上传递错误，避免 memory `ensureDir` 静默失败后继续执行 |
+| [OpenClaw](https://github.com/openclaw/openclaw) (375k★) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | 认证配置解析失败时记录日志而非静默吞掉 |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (10.8k★) | [#5462](https://github.com/microsoft/agent-framework/pull/5462) | 修复 `background=True` + tools 无限 retrieve loop：清掉已完成的 continuation 状态，让 tool results 正常提交 |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (10.8k★) | [#5778](https://github.com/microsoft/agent-framework/pull/5778) | 补齐 Magentic protocol 的 chat/reset message 声明，避免 orchestrator 反序列化未知类型失败 |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (10.8k★) | [#5808](https://github.com/microsoft/agent-framework/pull/5808) | 修复 handoff message role 原地修改：重试复用消息时不再把角色变更泄漏到后续流程 |
@@ -253,8 +255,6 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (5.3k★) | [#32](https://github.com/HKUDS/ClawTeam/pull/32) | Gemini CLI 支持：spawn、权限、prompt 注入双 backend 适配 |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) (5.3k★) | [#36](https://github.com/HKUDS/ClawTeam/pull/36) | Kimi CLI 支持：spawn backend、权限处理、3 个新测试 |
 | [OpenHarness](https://github.com/HKUDS/OpenHarness) (13.2k★) | [#185](https://github.com/HKUDS/OpenHarness/pull/185) | TUI tab 补全三合一修复：光标跳回、去除尾部空格、接受 `/quit` 别名 |
-| [OpenClaw](https://github.com/openclaw/openclaw) (375k★) | [#41259](https://github.com/openclaw/openclaw/pull/41259) | 目录创建失败时向上传递错误，避免 memory `ensureDir` 静默失败后继续执行 |
-| [OpenClaw](https://github.com/openclaw/openclaw) (375k★) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | 认证配置解析失败时记录日志而非静默吞掉 |
 
 #### 应用型 AI / RAG / 可观测性
 
