@@ -2,11 +2,8 @@
 
 Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @ HKU | Champion, Shanghai Global AI Contest | 3x ACM-ICPC Silver Medalist | Former Intern @ Baidu, Maimai, Kuaishou
 
-I build compact, runnable AI-agent systems and contribute production fixes to LLM inference, MCP/protocol tooling, and agent SDKs.
-
 - 80+ merged upstream PRs across vLLM, Mooncake, Microsoft Agent Framework, Inspect AI, AstrBot, LiteLLM, Transformers, SGLang, and related projects.
 - 18 public projects around coding agents, codebase understanding, AI testing, cost tracking, repo radar, and lightweight evals.
-- Practical bias: small codebases, local-first tools, focused tests, clear docs, and fixes that remove real failure modes instead of hiding symptoms.
 
 ### Projects
 
@@ -125,11 +122,8 @@ I build compact, runnable AI-agent systems and contribute production fixes to LL
 
 [Moonshot AI](https://www.moonshot.cn/) (Kimi) AI Agent 研究员 | 港大计算机硕士 | 上海全球AI大赛冠军 | 三次获ACM-ICPC银牌 | 曾在百度、脉脉、快手的AI 研发岗实习
 
-我主要做能直接运行、代码量克制的 AI Agent / LLM 工具，也长期给 LLM 推理、MCP / 协议工具链和 Agent SDK 修生产级问题。
-
 - 80+ 个上游 PR 已 merged，覆盖 vLLM、Mooncake、Microsoft Agent Framework、Inspect AI、AstrBot、LiteLLM、Transformers、SGLang 等项目。
 - 18 个公开项目，方向包括 coding agent、代码库理解、AI 测试、成本追踪、开源贡献雷达和轻量评测。
-- 工程偏好：小而完整的代码库、本地优先、focused tests、清晰文档，以及真正消除失败路径的修复。
 
 ### 项目
 
