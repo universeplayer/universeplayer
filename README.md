@@ -35,6 +35,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | Project | PR | What I Fixed |
 |---------|:--:|-------------|
 | [vLLM](https://github.com/vllm-project/vllm) (81.2k★) | [#40789](https://github.com/vllm-project/vllm/pull/40789) | Support tuple model outputs in the V1 ubatch wrapper so DBO and speculative decoding stop crashing on tuple-returning models |
+| [vLLM](https://github.com/vllm-project/vllm) (81.2k★) | [#43243](https://github.com/vllm-project/vllm/pull/43243) | Parse Qwen3 XML tool-call parameters as JSON first so `null` / `false` survive streaming tool parsing instead of being rejected by Python literal parsing |
 | [vLLM](https://github.com/vllm-project/vllm) (81.2k★) | [#37884](https://github.com/vllm-project/vllm/pull/37884) | RoBERTa position_ids in-place accumulation on CUDA graph padding: BGE-M3 crash after ~4000 requests |
 | [vLLM](https://github.com/vllm-project/vllm) (81.2k★) | [#37727](https://github.com/vllm-project/vllm/pull/37727) | Fix Responses API `instructions` leaking across turns via `previous_response_id` chain |
 | [vLLM](https://github.com/vllm-project/vllm) (81.2k★) | [#37699](https://github.com/vllm-project/vllm/pull/37699) | Fix weight offloading ignoring `VLLM_WEIGHT_OFFLOADING_DISABLE_PIN_MEMORY` in prefetch offloader |
@@ -179,6 +180,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | 项目 | PR | 修了啥 |
 |------|:--:|--------|
 | [vLLM](https://github.com/vllm-project/vllm) (81.2k★) | [#40789](https://github.com/vllm-project/vllm/pull/40789) | 修复 V1 ubatch wrapper 不支持 tuple model outputs：DBO / speculative decoding 不再因 tuple 返回值崩溃 |
+| [vLLM](https://github.com/vllm-project/vllm) (81.2k★) | [#43243](https://github.com/vllm-project/vllm/pull/43243) | 先按 JSON 解析 Qwen3 XML tool-call 参数，让 `null` / `false` 等 JSON literal 在 streaming tool parser 中稳定保留 |
 | [vLLM](https://github.com/vllm-project/vllm) (81.2k★) | [#37884](https://github.com/vllm-project/vllm/pull/37884) | 修复 RoBERTa position_ids 原地累积溢出：BGE-M3 约 4000 请求后 CUDA graph padding crash |
 | [vLLM](https://github.com/vllm-project/vllm) (81.2k★) | [#37727](https://github.com/vllm-project/vllm/pull/37727) | 修复 Responses API 的 `instructions` 通过 `previous_response_id` 链泄漏到后续轮次 |
 | [vLLM](https://github.com/vllm-project/vllm) (81.2k★) | [#37699](https://github.com/vllm-project/vllm/pull/37699) | 修复 weight offloading 忽略 `VLLM_WEIGHT_OFFLOADING_DISABLE_PIN_MEMORY` 环境变量 |
