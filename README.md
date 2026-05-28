@@ -88,6 +88,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#6474](https://github.com/AstrBotDevs/AstrBot/pull/6474) | SQLite `database is locked` under concurrent writes: added busy timeout |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#8175](https://github.com/AstrBotDevs/AstrBot/pull/8175) | Surface WeChat OA media send failures instead of reporting success after prepare/send timeouts |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#8172](https://github.com/AstrBotDevs/AstrBot/pull/8172) | Prefer bundled dashboard assets over stale data dist so releases do not serve an outdated WebUI |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#8388](https://github.com/AstrBotDevs/AstrBot/pull/8388) | Add missing dashboard i18n for plugin sub-command counts so extension details stop showing raw translation keys |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#8061](https://github.com/AstrBotDevs/AstrBot/pull/8061) | Keep Discord startup alive when command sync hits the daily create quota; only quota errors become warnings |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#7217](https://github.com/AstrBotDevs/AstrBot/pull/7217) | Fix qwen3-rerank response parsing: handle both old and new Dashscope API formats |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#7537](https://github.com/AstrBotDevs/AstrBot/pull/7537) | Prevent Telegram media group exceptions from being silently swallowed by APScheduler |
@@ -231,6 +232,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#6474](https://github.com/AstrBotDevs/AstrBot/pull/6474) | 修复 SQLite 并发写入 `database is locked`，添加 busy timeout |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#8175](https://github.com/AstrBotDevs/AstrBot/pull/8175) | 修复 WeChat OA 媒体发送失败仍上报成功：prepare/send 超时或失败时向调用方抛出明确错误 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#8172](https://github.com/AstrBotDevs/AstrBot/pull/8172) | 修复 release 使用过期 dashboard dist 的问题：优先加载 bundled WebUI 资产，避免发版后仍展示旧前端 |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#8388](https://github.com/AstrBotDevs/AstrBot/pull/8388) | 补齐插件详情页 sub-command 数量的 dashboard i18n，避免页面展示原始翻译 key |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#8061](https://github.com/AstrBotDevs/AstrBot/pull/8061) | 修复 Discord 启动同步命令触发 daily create quota 时打断 bot 启动：只把配额错误降级为 warning，其它异常继续抛出 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#7217](https://github.com/AstrBotDevs/AstrBot/pull/7217) | 修复 qwen3-rerank 响应解析：兼容新旧百炼 API 格式 |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) (33.2k★) | [#7537](https://github.com/AstrBotDevs/AstrBot/pull/7537) | 修复 Telegram media group 异常被 APScheduler 静默吞掉：try/except + EVENT_JOB_ERROR listener |
