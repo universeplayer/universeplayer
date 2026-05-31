@@ -2,7 +2,7 @@
 
 Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @ HKU | Champion, Shanghai Global AI Contest | 3x ACM-ICPC Silver Medalist | Former Intern @ Baidu, Maimai, Kuaishou
 
-- 80+ merged upstream PRs, including fixes in vLLM, Hugging Face Transformers, Microsoft Agent Framework, AstrBot, Mooncake, Inspect AI, LiteLLM, and Triton.
+- 100+ merged upstream PRs, including fixes in vLLM, Qwen Code, GitHub MCP Server, Hugging Face Transformers, Microsoft Agent Framework, AstrBot, Mooncake, Inspect AI, LiteLLM, and Triton.
 - 18 public projects, led by CoreCoder, RepoWiki, FindJobs-Agent, ContractGuard, AgentProbe, GitSense, and MTSIR3-GAN.
 
 ### Projects
@@ -63,7 +63,12 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 |---------|:--:|-------------|
 | [OpenClaw](https://github.com/openclaw/openclaw) (375k★) | [#41259](https://github.com/openclaw/openclaw/pull/41259) | Propagate memory directory creation failures instead of continuing after a failed `ensureDir` |
 | [OpenClaw](https://github.com/openclaw/openclaw) (375k★) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | Log auth profile resolution failures instead of swallowing silently |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) (24.8k★) | [#4622](https://github.com/QwenLM/qwen-code/pull/4622) | Keep assistant tool calls adjacent to their tool results so OpenAI-compatible providers stop rejecting repaired message histories |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) (24.8k★) | [#4632](https://github.com/QwenLM/qwen-code/pull/4632) | Harden context-error text collection so nested/non-string error payloads surface useful messages instead of disappearing |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) (24.8k★) | [#4639](https://github.com/QwenLM/qwen-code/pull/4639) | Drop the discontinued Qwen OAuth path from ACP login so users are not routed into a dead authentication method |
 | [Qwen Code](https://github.com/QwenLM/qwen-code) (24.8k★) | [#4607](https://github.com/QwenLM/qwen-code/pull/4607) | Fix IDE proxy requests by keeping `fetch` and `EnvHttpProxyAgent` on the same bundled `undici` module path |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) (24.8k★) | [#4636](https://github.com/QwenLM/qwen-code/pull/4636) | Apply the requested output language to side queries so auxiliary answers follow the same language contract as the main response |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) (24.8k★) | [#4635](https://github.com/QwenLM/qwen-code/pull/4635) | Hide completed sticky todos from the active CLI todo view so persistent task hints stay focused on remaining work |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (10.8k★) | [#5462](https://github.com/microsoft/agent-framework/pull/5462) | Fix `background=True` + tools infinite-retrieve loop: clear completed continuation state so tool results get posted |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (10.8k★) | [#5861](https://github.com/microsoft/agent-framework/pull/5861) | Preserve structured Foundry handoff arguments so delegated agent calls survive response conversion |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (10.8k★) | [#5974](https://github.com/microsoft/agent-framework/pull/5974) | Include Foundry agent tool definitions in eval mappings so evaluator runs can call code-defined tools |
@@ -119,6 +124,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) (2.1k★) | [#3902](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3902) | Parse OpenRouter `reasoning_details` in OpenAI-compatible responses instead of surfacing Python repr blocks |
 | [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) (2.1k★) | [#3924](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3924) | Reject unknown `GenerateConfig` fields early so misspelled generation options do not get silently ignored |
 | [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) (2.1k★) | [#3895](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3895) | Honor `COLUMNS` for `TERM=dumb`: log output no longer hard-wraps at Rich's default 80 columns |
+| [GitHub MCP Server](https://github.com/github/github-mcp-server) (29.9k★) | [#2514](https://github.com/github/github-mcp-server/pull/2514) | Support team reviewers in pull-request review requests by resolving team slugs into GitHub review subjects instead of dropping them |
 | [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk) (4.6k★) | [#962](https://github.com/modelcontextprotocol/go-sdk/pull/962) | Reject duplicate `initialize` requests so MCP sessions keep protocol state consistent after initialization |
 | [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk) (4.6k★) | [#981](https://github.com/modelcontextprotocol/go-sdk/pull/981) | Add `Implementation.description` metadata while keeping empty descriptions out of serialized MCP payloads |
 | [OpenHands SDK](https://github.com/OpenHands/software-agent-sdk) (754★) | [#3248](https://github.com/OpenHands/software-agent-sdk/pull/3248) | Serialize LiteLLM `modify_params` updates with an RLock so concurrent completions do not leak global parameter state |
@@ -156,7 +162,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 
 [Moonshot AI](https://www.moonshot.cn/) (Kimi) AI Agent 研究员 | 港大计算机硕士 | 上海全球AI大赛冠军 | 三次获ACM-ICPC银牌 | 曾在百度、脉脉、快手的AI 研发岗实习
 
-- 80+ 个上游 PR 已 merged，包括 vLLM、Hugging Face Transformers、Microsoft Agent Framework、AstrBot、Mooncake、Inspect AI、LiteLLM、Triton 等项目里的生产级 bug / 行为修复。
+- 100+ 个上游 PR 已 merged，包括 vLLM、Qwen Code、GitHub MCP Server、Hugging Face Transformers、Microsoft Agent Framework、AstrBot、Mooncake、Inspect AI、LiteLLM、Triton 等项目里的生产级 bug / 行为修复。
 - 18 个公开项目，代表项目包括 CoreCoder、RepoWiki、FindJobs-Agent、ContractGuard、AgentProbe、GitSense、MTSIR3-GAN。
 
 ### 项目
@@ -217,7 +223,12 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 |------|:--:|--------|
 | [OpenClaw](https://github.com/openclaw/openclaw) (375k★) | [#41259](https://github.com/openclaw/openclaw/pull/41259) | 目录创建失败时向上传递错误，避免 memory `ensureDir` 静默失败后继续执行 |
 | [OpenClaw](https://github.com/openclaw/openclaw) (375k★) | [#41271](https://github.com/openclaw/openclaw/pull/41271) | 认证配置解析失败时记录日志而非静默吞掉 |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) (24.8k★) | [#4622](https://github.com/QwenLM/qwen-code/pull/4622) | 保持 assistant tool calls 和 tool results 相邻，避免修复后的消息历史被 OpenAI-compatible provider 拒绝 |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) (24.8k★) | [#4632](https://github.com/QwenLM/qwen-code/pull/4632) | 强化 context error 文本抽取，让嵌套或非字符串错误 payload 也能暴露有用诊断信息 |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) (24.8k★) | [#4639](https://github.com/QwenLM/qwen-code/pull/4639) | 移除已停用的 Qwen OAuth ACP 登录路径，避免用户被引导到失效认证方式 |
 | [Qwen Code](https://github.com/QwenLM/qwen-code) (24.8k★) | [#4607](https://github.com/QwenLM/qwen-code/pull/4607) | 修复 IDE proxy 请求：让 `fetch` 和 `EnvHttpProxyAgent` 保持在同一个 bundled `undici` 模块路径上 |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) (24.8k★) | [#4636](https://github.com/QwenLM/qwen-code/pull/4636) | 将用户指定的输出语言同步到 side queries，让辅助回答也遵守主响应的语言约束 |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) (24.8k★) | [#4635](https://github.com/QwenLM/qwen-code/pull/4635) | 在 CLI todo 视图中隐藏已完成 sticky todos，让持久任务提示只聚焦剩余工作 |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (10.8k★) | [#5462](https://github.com/microsoft/agent-framework/pull/5462) | 修复 `background=True` + tools 无限 retrieve loop：清掉已完成的 continuation 状态，让 tool results 正常提交 |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (10.8k★) | [#5861](https://github.com/microsoft/agent-framework/pull/5861) | 修复 Foundry handoff 参数序列化，delegated agent 调用不再丢失结构化参数 |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (10.8k★) | [#5974](https://github.com/microsoft/agent-framework/pull/5974) | 让 Foundry agent eval 映射保留工具定义，评测运行能正常调用代码定义的 tools |
@@ -273,6 +284,7 @@ Agentic AI Researcher @ [Moonshot AI](https://www.moonshot.cn/) (Kimi) | MS CS @
 | [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) (2.1k★) | [#3902](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3902) | 修复 OpenAI-compatible 响应里的 OpenRouter `reasoning_details`：解析为可读 reasoning 文本，而不是暴露 Python repr |
 | [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) (2.1k★) | [#3924](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3924) | 让未知 `GenerateConfig` 字段提前报错，避免拼错的生成参数被静默忽略 |
 | [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) (2.1k★) | [#3895](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3895) | 修复 `TERM=dumb` 下终端宽度：尊重 `COLUMNS`，日志输出不再固定按 Rich 默认 80 列硬换行 |
+| [GitHub MCP Server](https://github.com/github/github-mcp-server) (29.9k★) | [#2514](https://github.com/github/github-mcp-server/pull/2514) | 支持 PR review 请求里的 team reviewer，把 team slug 解析为 GitHub review subject，不再丢失团队 reviewer |
 | [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk) (4.6k★) | [#962](https://github.com/modelcontextprotocol/go-sdk/pull/962) | 拒绝重复 `initialize` 请求，让 MCP session 初始化后的协议状态保持一致 |
 | [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk) (4.6k★) | [#981](https://github.com/modelcontextprotocol/go-sdk/pull/981) | 补齐 `Implementation.description` 元数据，同时让空描述继续不进入序列化后的 MCP payload |
 | [OpenHands SDK](https://github.com/OpenHands/software-agent-sdk) (754★) | [#3248](https://github.com/OpenHands/software-agent-sdk/pull/3248) | 用 RLock 串行化 LiteLLM `modify_params` 的保存、设置和恢复，避免并发 completion 泄漏全局参数状态 |
